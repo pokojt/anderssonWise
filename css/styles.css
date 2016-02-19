@@ -109,15 +109,11 @@ ul li {
   padding-bottom: 0;
 }
 
-
-
-
 /* FEATURED styles -------------- */
 
 .featured {
   background-color: #FFFEFF;
   font-size: .80em;
-  border: 1px solid green;
   overflow: auto;
   margin-bottom: 2vh;
   border-radius: 2px;
@@ -159,4 +155,40 @@ ul li {
   font-size: .95em;
   line-height: 1.6em;
   margin-top: 4vh;
+}
+
+/* MEDIA QUERIES ---------------------- */
+
+
+@media screen and (min-width: 900px) {
+  body {
+    background-color: #FFFEFF;
+  }
+  .mainBox {
+    margin-top: 0;
+  }
+  .nav {
+    width: 175px;
+    opacity: .9;
+    top: 6%;
+    left: 9%;
+  }
+  .nav h3 {
+    font-size: .9em;
+  }
+  ul {
+    background-color: #FFFEFF;
+    line-height: 1.2em;
+    margin-top: 0;
+    padding-top: .5em;
+    padding-bottom: 1em;
+  }
+  ul li {
+    float: none;
+    font-size: .7em;
+    letter-spacing: .08em;
+  }
+  .imageCaption {
+    text-shadow: 1px 1px black;
+  }
 }
