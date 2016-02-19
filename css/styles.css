@@ -2,7 +2,7 @@
 
 *:not(body):not(html) {
   box-sizing:border-box;
-  /*border:1px dashed #000;*/
+  border:1px dashed #000;
 }
 
 .columns {
@@ -20,3 +20,27 @@
 }
 
 /* object-fit: cover */
+
+@font-face {
+  
+}
+
+.container {
+  width: 95%;
+  margin: 0 auto;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* Nav styles -------------- */
+
+.nav {
+  position: aboslute;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
