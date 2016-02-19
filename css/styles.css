@@ -177,6 +177,7 @@ a {
   }
   html {
     margin: 0;
+    overflow: hidden;
   }
 
   .container {
@@ -224,7 +225,7 @@ a {
   }
   .description {
     float: left;
-    height: 29.2vh;
+    height: 29.5vh;
     color: #CECECE;
     width: 49.5%;
     background-color: #0B0B0B;
@@ -244,7 +245,7 @@ a {
   }
   #featuredPress {
     float: left;
-    height: 29.2vh;
+    height: 29.5vh;
     background-color: #051901;
     text-align: center;
     font-family: arial;
@@ -278,6 +279,7 @@ a {
   }
   html {
     height: 100%; !important;
+    overflow: hidden;
     /*width: 97%;*/
   }
 
@@ -305,7 +307,7 @@ a {
   .description {
     float: left;
     width: 28%;
-    height: 49.6vh;
+    height: 49.9vh;
   }
   .description img {
     margin-top: 11vh;
