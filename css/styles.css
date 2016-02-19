@@ -168,7 +168,8 @@ ul li {
     padding: 0;
   }
   .container {
-    margin: 0 2% 2% 0;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
   }
   .mainBox {
     margin-top: 0;
@@ -204,17 +205,22 @@ ul li {
     text-shadow: 2px 2px black;
     font-size: 1em;
     left: 60px;
-    top: 590px;
+    top: 60vh;
   }
   .caret {
     display: none;
   }
   .description {
     float: left;
+    height: 30vh;
     color: #CECECE;
     width: 49.5%;
     background-color: #0B0B0B;
     margin-left: 1%;
+    margin-top: 1%;
+  }
+  .description img {
+    margin-top: 3vh;
   }
   .description img {
     display: block;
@@ -225,16 +231,26 @@ ul li {
   }
   #featuredPress {
     float: left;
+    height: 30vh;
     background-color: #051901;
     text-align: center;
     font-family: arial;
     color: #CECECE;
     width: 49.5%;
+    margin-top: 1%;
+  }
+  #featuredPress p {
+    margin-top: 10vh;
+    margin-left: 1.5vh;
+    padding-right: 2vh;
+    font-size: .8em;
+    letter-spacing: .1em;
   }
   .largeFeaturedText {
     float: left;
     margin-top: 2%;
-    font-size: 2em;
+    font-size: 2.2em;
+    text-shadow: 1px 1px gray;
     font-family: 'minion-pro';
   }
 }
