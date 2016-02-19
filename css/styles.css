@@ -91,6 +91,7 @@ ul li {
   margin-bottom: 0;
   padding-bottom: 0;
   letter-spacing: .1em;
+  font-weight: lighter;
 }
 
 .imageCaption p {
@@ -160,7 +161,7 @@ ul li {
 /* MEDIA QUERIES ---------------------- */
 
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 600px) {
   body {
     background-color: #FFFEFF;
     margin: 0;
@@ -175,14 +176,14 @@ ul li {
   }
 
   .mainBox img {
-    max-height: 70vh;
+    height: 70vh;
     object-fit: cover;
   }
   .nav {
     width: 175px;
     opacity: .9;
     top: 60px;
-    left: 80px;
+    left: 60px;
   }
   .nav h3 {
     font-size: .9em;
@@ -202,8 +203,8 @@ ul li {
   .imageCaption {
     text-shadow: 2px 2px black;
     font-size: 1em;
-    left: 80px;
-    top: 560px;
+    left: 60px;
+    top: 590px;
   }
   .caret {
     display: none;
@@ -238,4 +239,4 @@ ul li {
   }
 }
 
-@media screen and (minx-width: 1530px)
+@media screen and (minx-width: 1070px)
