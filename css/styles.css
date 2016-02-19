@@ -39,13 +39,14 @@ body {
   background-color: black;
   font-family: 'minion-pro', sans-serif;
   color: #262626;
+  font-weight: lighter;
 }
 
 /* Nav styles -------------- */
 
 .nav {
   position: aboslute;
-  background-color: white;
+  background-color: #FFFEFF;
 }
 
 .nav h3 {
@@ -76,7 +77,7 @@ ul li {
 /* MAINBOX styles -------------- */
 
 .imageCaption {
-  color: white;
+  color: #FFFEFF;
 }
 
 .imageCaption h3 {
@@ -92,10 +93,47 @@ ul li {
   font-weight: lighter;
 }
 
+.mainBox img, .mainBox {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
 
-/* FEATURED PROJECT styles -------------- */
 
-/* FEATURED PRESS  (BOX 2) styles -------------- */
+
+
+/* FEATURED styles -------------- */
+
+.featured {
+  background-color: #FFFEFF;
+  font-size: .80em;
+  border: 1px solid green;
+  overflow: auto;
+  margin-bottom: 3vh;
+  border-radius: 2px;
+}
+
+#featuredTower {
+  margin-top: -6px;
+  padding: 0 0 0 0;
+}
+#featuredPress {
+  padding: 0 0 0 0;
+}
+
+.caret {
+  float: left;
+  width: 5%;
+  text-align: center;
+  margin: 2.5% 0 2.5% 0;
+}
+
+.featured p {
+  float: left;
+  width: 94%;
+  padding-left: .5%;
+  margin: 2.5% 0 2.5% 0;
+}
+
 
 /* DESCRIPTION (BOX 3) styles -------------- */
 
