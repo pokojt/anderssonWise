@@ -79,6 +79,14 @@ ul li {
   font-size: .7em;
 }
 
+ul li:hover {
+  color: green;
+}
+a {
+  color: #262626;
+  text-decoration: none;
+}
+
 /* MAINBOX styles -------------- */
 
 .imageCaption {
