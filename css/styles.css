@@ -46,7 +46,7 @@ body {
 
 .nav {
   position: absolute;
-  top: 1.5%;
+  top: 20px;
   background-color: #FFFEFF;
   width: 92.5%;
   display: block;
@@ -82,7 +82,7 @@ ul li {
 /* MAINBOX styles -------------- */
 
 .imageCaption {
-  top: 10%;
+  top: 105px;
   position: absolute;
   color: #FFFEFF;
 }
@@ -101,7 +101,7 @@ ul li {
 }
 
 .mainBox {
-  margin-top: 17vh;
+  margin-top: 180px;
 }
 
 .mainBox img, .mainBox {
@@ -159,5 +159,4 @@ ul li {
   font-size: .95em;
   line-height: 1.6em;
   margin-top: 4vh;
-
 }
