@@ -2,7 +2,7 @@
 
 *:not(body):not(html) {
   box-sizing:border-box;
-  border:1px dashed #000;
+  /*border:1px dashed #000;*/
 }
 
 .columns {
@@ -38,6 +38,7 @@ img {
 body {
   background-color: black;
   font-family: 'minion-pro', sans-serif;
+  color: #262626;
 }
 
 /* Nav styles -------------- */
@@ -48,14 +49,18 @@ body {
 }
 
 .nav h3 {
-  padding: 0 1em 0 1em;
+  padding: 1em 1em 0 1em;
   margin-bottom: 0;
-  font-size: 1.3em;
+  font-size: 1em;
+}
+
+.bigLetter {
+  font-size: 1.25em;
 }
 
 ul {
   list-style-type: none;
-  padding: .6em .6em .6em 1em;
+  padding: .8em .6em .6em 1em;
   background-color: #F4F4F4;
   overflow: auto;
   margin-bottom: 0;
@@ -64,7 +69,8 @@ ul {
 
 ul li {
   float: left;
-  margin-right: 3%;
+  margin-right: 2%;
+  font-size: .8em;
 }
 
 /* MAINBOX styles -------------- */
