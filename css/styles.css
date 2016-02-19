@@ -45,12 +45,17 @@ body {
 /* Nav styles -------------- */
 
 .nav {
-  position: aboslute;
+  position: absolute;
+  top: 1.5%;
   background-color: #FFFEFF;
+  width: 92.5%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .nav h3 {
-  padding: 1em 1em 0 1em;
+  padding: .4em 1em 0 1em;
   margin-bottom: 0;
   font-size: 1em;
 }
@@ -77,6 +82,8 @@ ul li {
 /* MAINBOX styles -------------- */
 
 .imageCaption {
+  top: 10%;
+  position: absolute;
   color: #FFFEFF;
 }
 
@@ -91,6 +98,10 @@ ul li {
   font-size: .7em;
   margin-top: 0;
   font-weight: lighter;
+}
+
+.mainBox {
+  margin-top: 17vh;
 }
 
 .mainBox img, .mainBox {
@@ -108,7 +119,7 @@ ul li {
   font-size: .80em;
   border: 1px solid green;
   overflow: auto;
-  margin-bottom: 3vh;
+  margin-bottom: 2vh;
   border-radius: 2px;
 }
 
@@ -139,4 +150,8 @@ ul li {
 
 .description img {
   display: none;
+}
+
+.description {
+  background-color: #FFFEFF;
 }
