@@ -22,7 +22,8 @@
 /* object-fit: cover */
 
 @font-face {
-
+  font-family: 'minion-pro';
+  src: url("../fonts/Minion Pro Regular.ttf");
 }
 
 .container {
@@ -34,15 +35,36 @@ img {
   max-width: 100%;
 }
 
+body {
+  background-color: black;
+  font-family: 'minion-pro', sans-serif;
+}
+
 /* Nav styles -------------- */
 
 .nav {
   position: aboslute;
+  background-color: white;
+}
+
+.nav h3 {
+  padding: 0 1em 0 1em;
+  margin-bottom: 0;
+  font-size: 1.3em;
 }
 
 ul {
   list-style-type: none;
-  padding-left: 0;
+  padding: .6em .6em .6em 1em;
+  background-color: #F4F4F4;
+  overflow: auto;
+  margin-bottom: 0;
+  margin-top: .3em;
+}
+
+ul li {
+  float: left;
+  margin-right: 3%;
 }
 
 /* MAINBOX styles -------------- */
