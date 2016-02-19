@@ -266,15 +266,16 @@ ul li {
     float: left;
     margin-top: 0;
     height: 100vh !important;
+    width: 70%;
   }
   html {
-    height: 100% !important;
+    height: 100%; !important;
     /*width: 97%;*/
   }
 
   .mainBox img {
     float: left;
-    width: 70vw;
+    width: 100%;
     height: 100vh !important;
     object-fit: cover;
   }
@@ -287,7 +288,7 @@ ul li {
     margin-top: 0;
     margin-left: 1%;
     float: left;
-    width: 28vw;
+    width: 28%;
     height: 49vh;
   }
   #featuredPress p {
@@ -295,7 +296,7 @@ ul li {
   }
   .description {
     float: left;
-    width: 28vw;
+    width: 28%;
     height: 49.4vh;
   }
   .description img {
