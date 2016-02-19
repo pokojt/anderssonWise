@@ -22,7 +22,7 @@
 /* object-fit: cover */
 
 @font-face {
-  
+
 }
 
 .container {
@@ -43,4 +43,16 @@ img {
 ul {
   list-style-type: none;
   padding-left: 0;
+}
+
+/* MAINBOX styles -------------- */
+
+/* FEATURED PROJECT styles -------------- */
+
+/* FEATURED PRESS  (BOX 2) styles -------------- */
+
+/* DESCRIPTION (BOX 3) styles -------------- */
+
+.description img {
+  display: none;
 }
