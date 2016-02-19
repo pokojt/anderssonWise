@@ -161,12 +161,15 @@ ul li {
 /* MEDIA QUERIES ---------------------- */
 
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 600px){
   body {
     background-color: #FFFEFF;
     margin: 0;
     padding: 0;
   }
+  /*html {
+    width: 100vw;
+  }*/
   .container {
     margin: 0 0 0 0;
     padding: 0 0 0 0;
@@ -212,12 +215,13 @@ ul li {
   }
   .description {
     float: left;
-    height: 30vh;
+    height: 29.2vh;
     color: #CECECE;
     width: 49.5%;
     background-color: #0B0B0B;
     margin-left: 1%;
     margin-top: 1%;
+    margin-bottom: 0;
   }
   .description img {
     margin-top: 3vh;
@@ -231,13 +235,14 @@ ul li {
   }
   #featuredPress {
     float: left;
-    height: 30vh;
+    height: 29.2vh;
     background-color: #051901;
     text-align: center;
     font-family: arial;
     color: #CECECE;
     width: 49.5%;
     margin-top: 1%;
+    margin-bottom: 0;
   }
   #featuredPress p {
     margin-top: 10vh;
@@ -255,4 +260,46 @@ ul li {
   }
 }
 
-@media screen and (minx-width: 1070px)
+@media screen and (min-width: 1370px){
+  .mainBox {
+    float: left;
+    margin-top: 0;
+    height: 100vh !important;
+  }
+  html {
+    height: 100% !important;
+    /*width: 97%;*/
+  }
+
+  .mainBox img {
+    float: left;
+    width: 70vw;
+    height: 100vh !important;
+    object-fit: cover;
+  }
+
+  .imageCaption {
+    top: 85vh;
+  }
+  .featured {
+    overflow: auto;
+  }
+  #featuredPress {
+    margin-top: 0;
+    margin-left: 1%;
+    float: left;
+    width: 20vw;
+    height: 49vh;
+  }
+  #featuredPress p {
+    margin-top: 15vh;
+  }
+  .description {
+    float: left;
+    width: 20vw;
+    height: 49.4vh;
+  }
+  .description img {
+    margin-top: 11vh;
+  }
+}
